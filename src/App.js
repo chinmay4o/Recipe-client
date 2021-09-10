@@ -1,3 +1,4 @@
+ /* eslint-disable */
 import "./App.css";
 import { useState, useEffect } from "react";
 import Nav from "./components/nav/Nav";
@@ -8,7 +9,6 @@ import {
   BrowserRouter as Router,
   Route,
   Switch,
-  useHistory,
   Link,
 } from "react-router-dom";
 import { Fullrecipe } from "./Fullrecipe";
@@ -92,20 +92,20 @@ export default function App() {
 }
 
 // delete component
-function Delete1({ index, data, setData , getD }) {
-  const deleteMe = (index) => {
-    let newArr = data;
-    newArr.splice(index, 1);
-    console.log(newArr);
-    return setData(newArr);
-  };
-  getD();
-  return (
-    <>
-      <p className="btn2" onClick={(e) => deleteMe(index)}>
-        <span class="material-icons del1">delete</span>
-      </p>
-    </>
-  );
-}
+// function Delete1({ index, data, setData , getD }) {
+//   const deleteMe = (index) => {
+//     let newArr = data;
+//     newArr.splice(index, 1);
+//     console.log(newArr);
+//     return setData(newArr);
+//   };
+//   getD();
+//   return (
+//     <>
+//       <p className="btn2" onClick={(e) => deleteMe(index)}>
+//         <span class="material-icons del1">delete</span>
+//       </p>
+//     </>
+//   );
+// }
 

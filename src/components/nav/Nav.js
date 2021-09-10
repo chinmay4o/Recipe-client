@@ -1,5 +1,6 @@
 // import "./App.css";
-import { Link, useHistory } from "react-router-dom";
+
+import { useHistory } from "react-router-dom";
 import "./nav.css";
 
 export default function Nav({ setsearch }) {
