@@ -22,10 +22,10 @@ export function Fullrecipe({ data }) {
                 style={{
                   boxShadow: "3px 3px 3px 3px rgba(255, 255, 255, 0.5)",
                 }} />
-              <h1 style={{ margin: "20px 0" }}>{ele.title} </h1>
+              <h1 style={{ margin: "20px 0" }} className="full-h1">{ele.title} </h1>
               <ul>
                 {ele.ingredients.map((ele) => (
-                  <li>{ele}</li>
+                  <li  key={ele._id} className="full-li" >{ele}</li>
                 ))}
               </ul>
 

@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400&display=swap");
 
 * {
-  font-family:  Montserrat;
+  font-family: Montserrat;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -21,7 +21,6 @@
   padding: 40px 0;
   background-color: rgb(241, 241, 241);
 }
-
 
 img {
   height: 200px;
@@ -53,7 +52,7 @@ main2 {
   box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.5);
 }
 
-.btn-text{
+.btn-text {
   font-size: 1em;
   color: #fff;
   cursor: pointer;
@@ -76,7 +75,7 @@ main2 {
   cursor: pointer;
 }
 
-.link1:hover{
+.link1:hover {
   background-color: #eee;
   color: #000;
 }
@@ -93,6 +92,29 @@ main2 {
   color: white;
 }
 
+.full .full-li {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .full {
+    max-width: 95%;
+    padding: 10px;
+    min-height: 80vh;
+    background-color: #e76f51;
+    border-radius: 10px;
+    margin: 20px auto;
+    color: white;
+  }
+
+  .full .full-h1 {
+    font-size: 1.7rem;
+  }
+  .full .full-li {
+    font-size: 1.3rem;
+  }
+}
+
 p {
   margin-bottom: 20px;
   font-size: 1.5em;
@@ -101,7 +123,7 @@ p {
   font-weight: bold;
 }
 
-.br1{
+.br1 {
   border: 2px solid #2f3e46;
   font-size: 1.2rem;
   width: 200px;
@@ -113,8 +135,7 @@ p {
   color: #fff;
 }
 
-
-.br2{
+.br2 {
   border: 2px solid #2f3e46;
   width: 200px;
   padding: 10px 20px;
@@ -125,7 +146,7 @@ p {
   color: #fff;
 }
 
-.del1{
+.del1 {
   color: #2f3e46;
   position: relative;
   top: 7px;
